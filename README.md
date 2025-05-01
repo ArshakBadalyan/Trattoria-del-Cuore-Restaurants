@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Demo
-  [https://trattori-del-cuore.netlify.app/](https://trattori-del-cuore.netlify.app/) 
+  [Trattoria del Cuore Restaurant](https://trattori-del-cuore.netlify.app/) 
 ##### Created by Arshak Badalyan
 
 ## ✨ Overview
