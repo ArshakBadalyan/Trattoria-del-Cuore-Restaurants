@@ -2,7 +2,9 @@ READsME.md Template for Your Web Project
 
 # Trattoria del Cuore Restaurant
 
-![Trattoria del Cuore Restaurant Logo](./public/logo.png) ## 🚀 Overview
+![Trattoria del Cuore Restaurant Logo](./public/logo.png) 
+
+## 🚀 Overview
 
 This project showcases the design for the website of Ele Restaurant, a fictional establishment located in Italy, dedicated to providing an exquisite dining experience. The website aims to capture the restaurant's elegant ambiance, highlight its delectable menu, and offer a seamless reservation process for potential diners. It serves as a digital representation of the restaurant's brand and offerings.
 
