@@ -83,7 +83,7 @@ Acknowledgements: If you've used any third-party libraries or resources, conside
 ## 📸 Screenshots
 
 ![Homepage](./public/assets/light.png)
-*The elegant homepage showcasing the restaurant's brand.*
+*Light Mode: The elegant homepage showcasing the restaurant's brand.*
 
 ![Homepage](./public/assets/dark.png)
-*The elegant homepage showcasing the restaurant's brand.*
+*Dark Mode: The elegant homepage showcasing the restaurant's brand.*
