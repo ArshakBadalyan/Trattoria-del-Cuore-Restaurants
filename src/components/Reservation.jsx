@@ -104,7 +104,7 @@ const Reservation = () => {
                       type="text"
                       id="res-name"
                       name="name"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-500 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
                       required
                     />
                   </div>
@@ -119,7 +119,7 @@ const Reservation = () => {
                       type="email"
                       id="res-email"
                       name="email"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-500 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
                       required
                     />
                   </div>
@@ -136,7 +136,7 @@ const Reservation = () => {
                       type="tel"
                       id="res-phone"
                       name="phone"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-500 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
                       required
                     />
                   </div>
@@ -150,7 +150,7 @@ const Reservation = () => {
                     <select
                       id="res-guests"
                       name="guests"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-500 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
                     >
                       {reservation.people.map((item) => (<option value={item.key}>{item.label}</option>))}
                     </select>
@@ -168,7 +168,7 @@ const Reservation = () => {
                       type="date"
                       id="res-date"
                       name="date"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-500 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
                       required
                       min={today}
                       defaultValue={today}
@@ -184,7 +184,7 @@ const Reservation = () => {
                     <select
                       id="res-time"
                       name="time"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-500 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
                     >
                         {reservation.timetable.map((item)=>(<option value={item.key}>{item.key}</option>))}
                     </select>
@@ -201,7 +201,7 @@ const Reservation = () => {
                     id="res-notes"
                     name="notes"
                     rows="3"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition duration-300 dark:bg-gray-500 dark:border-gray-600 dark:text-gray-100 dark:focus:ring-red-500 dark:focus:border-red-500"
                   ></textarea>
                 </div>
                 <button
