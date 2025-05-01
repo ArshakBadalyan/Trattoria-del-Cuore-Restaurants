@@ -1,8 +1,8 @@
-READsME.md Template for Your Web Project
-
 # Trattoria del Cuore Restaurant
 
-![Trattoria del Cuore Restaurant Logo](./public/logo.png) ## 🚀 Overview
+![Trattoria del Cuore Restaurant Logo](./public/logo.png) 
+
+## 🚀 Overview
 
 This project showcases the design for the website of Ele Restaurant, a fictional establishment located in Italy, dedicated to providing an exquisite dining experience. The website aims to capture the restaurant's elegant ambiance, highlight its delectable menu, and offer a seamless reservation process for potential diners. It serves as a digital representation of the restaurant's brand and offerings.
 
@@ -11,8 +11,7 @@ This project showcases the design for the website of Ele Restaurant, a fictional
 - HTML5
 - CSS3
 - JavaScript
-- [Potentially a Frontend Framework/Library] (e.g., React, Vue.js, Angular if the design were implemented)
-- [Potentially a Backend Technology] (e.g., Node.js, Python, PHP if dynamic features like reservations were implemented)
+- [Potentially a Frontend Framework/Library] (React if the design were implemented)
 - Google Maps API (for location display)
 
 ## 🎯 Features (Based on the Design)
@@ -27,26 +26,11 @@ This project showcases the design for the website of Ele Restaurant, a fictional
 - **Interactive Map:** Displaying the restaurant's location for easy navigation.
 - **Informative Footer:** Including copyright information and social media links.
 
-## 📸 Screenshots
-
-![Homepage](./public/assets/homepage.png)
-*The elegant homepage showcasing the restaurant's brand.*
-
-![Featured Dishes](./public/assets/featured-dishes.png)
-*A selection of the restaurant's signature dishes.*
-
-![Reservation Section](./public/assets/reservation.png)
-*The user-friendly online reservation form.*
-
-![Contact Us & Map](./public/assets/contact-map.png)
-*Contact details and an interactive map of the restaurant's location in Italy.*
-
 ## ⚙️ Installation (If this were a development project)
 
 ### Prerequisites
 
-- Node.js (if a Node.js backend is used)
-- npm or yarn (Node.js package managers)
+- npm  (Node.js package managers)
 - A web browser
 
 ### Steps
@@ -65,51 +49,11 @@ Install frontend dependencies (if a framework like React was used):
 Bash
 
 npm install
-# or
-yarn install
-Install backend dependencies (if a backend was implemented):
 
-Bash
+npm run start
+or
+npm run build
 
-cd backend # Navigate to the backend folder (if it exists)
-npm install
-# or
-yarn install
-Configure environment variables (if applicable, e.g., for database connections or API keys). Create a .env file based on .env.example.
-
-Start the frontend development server:
-
-Bash
-
-npm start
-# or
-yarn start
-Start the backend server (if applicable):
-
-Bash
-
-cd backend
-npm run dev # or a similar command defined in package.json
-Open your browser and navigate to the address provided by the frontend development server (usually http://localhost:3000) to view the Ele Restaurant website.
-
-🧪 Testing (If tests were implemented)
-To run frontend tests:
-
-Bash
-
-npm test
-# or
-yarn test
-To run backend tests:
-
-Bash
-
-cd backend
-npm test
-# or
-yarn test
-🤝 Contributing
-We welcome contributions! Please follow these steps:
 
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
@@ -121,7 +65,7 @@ Create a new Pull Request.
 This project is licensed under the MIT License - see the https://www.google.com/search?q=LICENSE file for details.
 
 📞 Contact
-For any inquiries, please email your-email@example.com.
+For any inquiries, please email arshakbadalyan.info@yopmail.com.
 
 🛠️ Tips for Enhancing Your README.md
 Project Name & Logo: Ensure a clear project name and include a relevant logo or banner image for visual appeal.
@@ -134,3 +78,13 @@ Live Demo Link: If the website is deployed, include a link to the live demo so u
 Tech Stack Details: Provide more specific details about the frameworks, libraries, and tools used in the project.
 Code Style and Conventions: If applicable, mention any specific code style guides or conventions followed in the project.
 Acknowledgements: If you've used any third-party libraries or resources, consider acknowledging them.
+
+
+## 📸 Screenshots
+
+*Light Mode: The elegant homepage showcasing the restaurant's brand.*
+![Homepage](./public/assets/light.png)
+
+
+*Dark Mode: The elegant homepage showcasing the restaurant's brand.*
+![Homepage](./public/assets/dark.png)
